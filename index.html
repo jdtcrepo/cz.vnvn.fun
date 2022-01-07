@@ -1,73 +1,363 @@
-
 <!DOCTYPE html>
 <html lang="cs">
 <head>
+    <title>Online hry zdarma</title>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wrku</title>
-    
-    <style>
-      a {
-	      display: block;
-        font-size: 20px;
-        padding: 16px;
-      }
-    </style>
+    <meta name="description" content="Hrajte online hry zdarma na VNVN, nejlepším místě pro hraní vysoce kvalitních prohlížečových her. Každý den přidáváme nové hry. Bavte se!">
+
+    <link rel="canonical" href="https://cs.vnvn.fun">
+
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+
+    <link rel="icon" sizes="192x192" href="https://assets.vnvn.fun/icons/vnvn.webp">
+    <link rel="apple-touch-icon" href="https://assets.vnvn.fun/icons/vnvn.webp">
+    <link rel="mask-icon" href="https://assets.vnvn.fun/icons/vnvn.webp" color="black">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-867GHGXSRN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-867GHGXSRN');
+    </script>
+
+        <link rel="stylesheet" href="https://assets.vnvn.fun/css/base.css">
+        <link rel="stylesheet" href="https://assets.vnvn.fun/css/nav.css">
+        <link rel="stylesheet" href="https://assets.vnvn.fun/css/container.css">
+        <link rel="stylesheet" href="https://assets.vnvn.fun/css/layout.css">
+        <link rel="stylesheet" href="https://assets.vnvn.fun/css/sidebar.css">
+        <link rel="stylesheet" href="https://assets.vnvn.fun/css/header.css">
+        <link rel="stylesheet" href="https://assets.vnvn.fun/css/main.css">
+        <link rel="stylesheet" href="https://assets.vnvn.fun/css/section.css">
+        <link rel="stylesheet" href="https://assets.vnvn.fun/css/card.css">
+        <link rel="stylesheet" href="https://assets.vnvn.fun/css/footer.css">
 </head>
 <body>
-    <h1>Nejlepší hry</h1>
-     <ul>
-			<li>
-                <a title="Vše" href="https://superhry.vnvn.fun/" class="font-bold px-4 py-3 hover:bg-gray-100 rounded">Vše</a>
-			</li>
-			<li>
-                <a title="3D hry" href="https://superhry.vnvn.fun/3d-hry" class="px-4 py-3 hover:bg-gray-100 rounded">3D hry</a>
-			</li>
-			<li>
-                <a title="Bojové hry" href="https://superhry.vnvn.fun/bojove-hry" class="px-4 py-3 hover:bg-gray-100 rounded">Bojové hry</a>
-			</li>
-			<li>
-                <a title="Brutální" href="https://superhry.vnvn.fun/brutalni" class="px-4 py-3 hover:bg-gray-100 rounded">Brutální</a>
-			</li>
-			<li>
-                <a title="Hry pro dva" href="https://superhry.vnvn.fun/hry-pro-dva" class="px-4 py-3 hover:bg-gray-100 rounded">Hry pro dva</a>
-			</li>
-			<li>
-                <a title="Karetní hry" href="https://superhry.vnvn.fun/karetni" class="px-4 py-3 hover:bg-gray-100 rounded">Karetní hry</a>
-			</li>
-			<li>
-                <a title="Logické hry" href="https://superhry.vnvn.fun/logicke-hry" class="px-4 py-3 hover:bg-gray-100 rounded">Logické hry</a>
-			</li>
-			<li>
-                <a title="Oddechové" href="https://superhry.vnvn.fun/oddechove" class="px-4 py-3 hover:bg-gray-100 rounded">Oddechové</a>
-			</li>
-			<li>
-                <a title="Postřehové" href="https://superhry.vnvn.fun/postrehove" class="px-4 py-3 hover:bg-gray-100 rounded">Postřehové</a>
-			</li>
-			<li>
-                <a title="Pro holky" href="https://superhry.vnvn.fun/pro-holky" class="px-4 py-3 hover:bg-gray-100 rounded">Pro holky</a>
-			</li>
-			<li>
-                <a title="Pro kluky" href="https://superhry.vnvn.fun/pro-kluky" class="px-4 py-3 hover:bg-gray-100 rounded">Pro kluky</a>
-			</li>
-			<li>
-                <a title="Pro nejmenší" href="https://superhry.vnvn.fun/pro-nejmensi" class="px-4 py-3 hover:bg-gray-100 rounded">Pro nejmenší</a>
-			</li>
-			<li>
-                <a title="Skákačky" href="https://superhry.vnvn.fun/skakacky" class="px-4 py-3 hover:bg-gray-100 rounded">Skákačky</a>
-			</li>
-			<li>
-                <a title="Sportovní hry" href="https://superhry.vnvn.fun/sportovni-hry" class="px-4 py-3 hover:bg-gray-100 rounded">Sportovní hry</a>
-			</li>
-			<li>
-                <a title="Strategické" href="https://superhry.vnvn.fun/strategicke" class="px-4 py-3 hover:bg-gray-100 rounded">Strategické</a>
-			</li>
-			<li>
-                <a title="Střílečky" href="https://superhry.vnvn.fun/strilecky" class="px-4 py-3 hover:bg-gray-100 rounded">Střílečky</a>
-			</li>
-			<li>
-                <a title="Závodní hry" href="https://superhry.vnvn.fun/zavodni-hry" class="px-4 py-3 hover:bg-gray-100 rounded">Závodní hry</a>
-			</li>
-		</ul>
+    <nav class="nav">
+        <div class="nav__wrapper">
+            <a class="nav__logo" href="https://cs.vnvn.fun">vnvn</a>
+            <ul class="nav__links">
+                    <li>
+                        <a class="nav__link nav__link--active" href="https://cs.vnvn.fun">CZ</a>
+                    </li>
+                    <li>
+                        <a class="nav__link nav__link--active" href="https://sk.vnvn.fun">SK</a>
+                    </li>
+                    <li>
+                        <a class="nav__link nav__link--active" href="https://pl.vnvn.fun">PL</a>
+                    </li>
+                    <li>
+                        <a class="nav__link nav__link--active" href="https://ru.vnvn.fun">RU</a>
+                    </li>
+            </ul>
+        </div>
+    </nav>
+
+<header class="header">
+    <div class="header__wrapper">
+        <h1>Online hry zdarma</h1>
+        <p>Hrajte online hry zdarma na VNVN, nejlepším místě pro hraní vysoce kvalitních prohlížečových her. Každý den přidáváme nové hry. Bavte se!</p>
+    </div>
+</header>
+
+<div class="main">
+    <div class="main__wrapper">
+        <nav class="section">
+            <div class="section__title"><div class="section__emoji">🕵</div><h2>Kategorie</h2></div>
+            <ul class="section__categories">
+                    <li>
+                        <a class="section__category" href="https://cs.vnvn.fun/akcni-hry">Akční hry</a>
+                    </li>
+                    <li>
+                        <a class="section__category" href="https://cs.vnvn.fun/zavodni-hry">Závodní hry</a>
+                    </li>
+                    <li>
+                        <a class="section__category" href="https://cs.vnvn.fun/strategicke-hry">Strategické hry</a>
+                    </li>
+                    <li>
+                        <a class="section__category" href="https://cs.vnvn.fun/sportovni-hry">Sportovní hry</a>
+                    </li>
+                    <li>
+                        <a class="section__category" href="https://cs.vnvn.fun/dovednostni-hry">Dovednostní hry</a>
+                    </li>
+            </ul>
+        </nav>
+        <main>
+            <section class="section">
+                <div class="section__title"><div class="section__emoji">🔫</div><h2>Akční hry</h2></div>
+                <div class="section__body">
+                    <article>
+                        <a class="card" href="https://cs.vnvn.fun/akcni-hry/birdy-rush">
+                            <div class="card__img-wrapper">
+                                <img class="card__img" alt="Birdy rush" src="https://assets.vnvn.fun/images/x109oyc3m723b2vsjhxyn5uxa3o8kqy9.webp">
+                            </div>
+                            <div class="card__title">Birdy rush</div>
+                        </a>
+                    </article>
+                    <article>
+                        <a class="card" href="https://cs.vnvn.fun/akcni-hry/tower-boxer">
+                            <div class="card__img-wrapper">
+                                <img class="card__img" alt="Tower Boxer" src="https://assets.vnvn.fun/images/s2f6k8glmgab52l2k6w987voaysvfroe.webp">
+                            </div>
+                            <div class="card__title">Tower Boxer</div>
+                        </a>
+                    </article>
+                    <article>
+                        <a class="card" href="https://cs.vnvn.fun/akcni-hry/police-escape">
+                            <div class="card__img-wrapper">
+                                <img class="card__img" alt="Police Escape" src="https://assets.vnvn.fun/images/bq70z1o91992u58hbruxl42jl9r7jr7e.webp">
+                            </div>
+                            <div class="card__title">Police Escape</div>
+                        </a>
+                    </article>
+                    <article>
+                        <a class="card" href="https://cs.vnvn.fun/akcni-hry/cold-station">
+                            <div class="card__img-wrapper">
+                                <img class="card__img" alt="Cold Station" src="https://assets.vnvn.fun/images/o4n3gs115i6rjqrngoicnqnc6fvg733w.webp">
+                            </div>
+                            <div class="card__title">Cold Station</div>
+                        </a>
+                    </article>
+                    <article>
+                        <a class="card" href="https://cs.vnvn.fun/akcni-hry/death-chamber">
+                            <div class="card__img-wrapper">
+                                <img class="card__img" alt="Death Chamber" src="https://assets.vnvn.fun/images/hdjaglz205ouxyqjtr5bsh6kxznbkmag.webp">
+                            </div>
+                            <div class="card__title">Death Chamber</div>
+                        </a>
+                    </article>
+                    <article>
+                        <a class="card" href="https://cs.vnvn.fun/akcni-hry/star-battles">
+                            <div class="card__img-wrapper">
+                                <img class="card__img" alt="Star Battles" src="https://assets.vnvn.fun/images/lx3fa32erh8maguu6h3uajm76x3mzye4.webp">
+                            </div>
+                            <div class="card__title">Star Battles</div>
+                        </a>
+                    </article>
+                </div>
+            </section>
+            <section class="section">
+                <div class="section__title"><div class="section__emoji">🛣️</div><h2>Závodní hry</h2></div>
+                <div class="section__body">
+                    <article>
+                        <a class="card" href="https://cs.vnvn.fun/zavodni-hry/car-rush">
+                            <div class="card__img-wrapper">
+                                <img class="card__img" alt="Car Rush" src="https://assets.vnvn.fun/images/3chvicaef9bohmckgvuuy4uz4wzo4vie.webp">
+                            </div>
+                            <div class="card__title">Car Rush</div>
+                        </a>
+                    </article>
+                    <article>
+                        <a class="card" href="https://cs.vnvn.fun/zavodni-hry/two-cars">
+                            <div class="card__img-wrapper">
+                                <img class="card__img" alt="Two cars" src="https://assets.vnvn.fun/images/73gkvr8p7tuufza4sqlbspsiwfa4vzr1.webp">
+                            </div>
+                            <div class="card__title">Two cars</div>
+                        </a>
+                    </article>
+                    <article>
+                        <a class="card" href="https://cs.vnvn.fun/zavodni-hry/street-driver">
+                            <div class="card__img-wrapper">
+                                <img class="card__img" alt="Street driver" src="https://assets.vnvn.fun/images/psefqs0b32k5ai145iage18ipxqn9hz7.webp">
+                            </div>
+                            <div class="card__title">Street driver</div>
+                        </a>
+                    </article>
+                    <article>
+                        <a class="card" href="https://cs.vnvn.fun/zavodni-hry/drag-racing-club">
+                            <div class="card__img-wrapper">
+                                <img class="card__img" alt="Drag Racing Club" src="https://assets.vnvn.fun/images/19z5428rulr2kpo1h9box13inctb6ylc.webp">
+                            </div>
+                            <div class="card__title">Drag Racing Club</div>
+                        </a>
+                    </article>
+                    <article>
+                        <a class="card" href="https://cs.vnvn.fun/zavodni-hry/road-fury">
+                            <div class="card__img-wrapper">
+                                <img class="card__img" alt="Road Fury" src="https://assets.vnvn.fun/images/se25pj8c34mkrm8zhau8akb3hh8iete1.webp">
+                            </div>
+                            <div class="card__title">Road Fury</div>
+                        </a>
+                    </article>
+                    <article>
+                        <a class="card" href="https://cs.vnvn.fun/zavodni-hry/stud-rider">
+                            <div class="card__img-wrapper">
+                                <img class="card__img" alt="Stud Rider" src="https://assets.vnvn.fun/images/7by7xj3qbfk2xvtwsxs7ibg2lc0ymblk.webp">
+                            </div>
+                            <div class="card__title">Stud Rider</div>
+                        </a>
+                    </article>
+                </div>
+            </section>
+            <section class="section">
+                <div class="section__title"><div class="section__emoji">🤯</div><h2>Strategické hry</h2></div>
+                <div class="section__body">
+                    <article>
+                        <a class="card" href="https://cs.vnvn.fun/strategicke-hry/mk48-io">
+                            <div class="card__img-wrapper">
+                                <img class="card__img" alt="Mk48.io" src="https://assets.vnvn.fun/images/r63apz68ypw0kwcrocppqhbt4zcgcoe8.webp">
+                            </div>
+                            <div class="card__title">Mk48.io</div>
+                        </a>
+                    </article>
+                    <article>
+                        <a class="card" href="https://cs.vnvn.fun/strategicke-hry/domino-battle">
+                            <div class="card__img-wrapper">
+                                <img class="card__img" alt="Domino Battle" src="https://assets.vnvn.fun/images/zueo6ral10k1gk6tviw4rdnwrwkbmovt.webp">
+                            </div>
+                            <div class="card__title">Domino Battle</div>
+                        </a>
+                    </article>
+                    <article>
+                        <a class="card" href="https://cs.vnvn.fun/strategicke-hry/connector">
+                            <div class="card__img-wrapper">
+                                <img class="card__img" alt="Connector" src="https://assets.vnvn.fun/images/nqmliekymtufwr0vqloswqxvelwld8l6.webp">
+                            </div>
+                            <div class="card__title">Connector</div>
+                        </a>
+                    </article>
+                    <article>
+                        <a class="card" href="https://cs.vnvn.fun/strategicke-hry/2048-legend">
+                            <div class="card__img-wrapper">
+                                <img class="card__img" alt="2048 Legend" src="https://assets.vnvn.fun/images/f8qi5ymjf8bw35ww16yie55sulrdwc1m.webp">
+                            </div>
+                            <div class="card__title">2048 Legend</div>
+                        </a>
+                    </article>
+                    <article>
+                        <a class="card" href="https://cs.vnvn.fun/strategicke-hry/checkers-legend">
+                            <div class="card__img-wrapper">
+                                <img class="card__img" alt="Checkers Legend" src="https://assets.vnvn.fun/images/inkje05y3a4lg5bxz9cx3lg8ura7tsmb.webp">
+                            </div>
+                            <div class="card__title">Checkers Legend</div>
+                        </a>
+                    </article>
+                    <article>
+                        <a class="card" href="https://cs.vnvn.fun/strategicke-hry/chess">
+                            <div class="card__img-wrapper">
+                                <img class="card__img" alt="Chess" src="https://assets.vnvn.fun/images/vuqh29d56dlx2yqzzcjbyscgr0g4kee2.webp">
+                            </div>
+                            <div class="card__title">Chess</div>
+                        </a>
+                    </article>
+                </div>
+            </section>
+            <section class="section">
+                <div class="section__title"><div class="section__emoji">⚽</div><h2>Sportovní hry</h2></div>
+                <div class="section__body">
+                    <article>
+                        <a class="card" href="https://cs.vnvn.fun/sportovni-hry/crazy-baskets">
+                            <div class="card__img-wrapper">
+                                <img class="card__img" alt="Crazy Baskets" src="https://assets.vnvn.fun/images/qxu25kblo0yib2z9a4n17a2zidmn6ivp.webp">
+                            </div>
+                            <div class="card__title">Crazy Baskets</div>
+                        </a>
+                    </article>
+                    <article>
+                        <a class="card" href="https://cs.vnvn.fun/sportovni-hry/tennis-open-2021">
+                            <div class="card__img-wrapper">
+                                <img class="card__img" alt="Tennis Open 2021" src="https://assets.vnvn.fun/images/652pcrrqnrcbdj8n79hh9j3zg7dx9h39.webp">
+                            </div>
+                            <div class="card__title">Tennis Open 2021</div>
+                        </a>
+                    </article>
+                    <article>
+                        <a class="card" href="https://cs.vnvn.fun/sportovni-hry/boxing-stars">
+                            <div class="card__img-wrapper">
+                                <img class="card__img" alt="Boxing Stars" src="https://assets.vnvn.fun/images/fcgs45eka94o9o2apuuz81gjf7l1l9hn.webp">
+                            </div>
+                            <div class="card__title">Boxing Stars</div>
+                        </a>
+                    </article>
+                    <article>
+                        <a class="card" href="https://cs.vnvn.fun/sportovni-hry/cpl-tournament-2020">
+                            <div class="card__img-wrapper">
+                                <img class="card__img" alt="CPL Tournament 2020" src="https://assets.vnvn.fun/images/5t3dvhz8v1dqt2gscm07jwwk8mbs1bjo.webp">
+                            </div>
+                            <div class="card__title">CPL Tournament 2020</div>
+                        </a>
+                    </article>
+                    <article>
+                        <a class="card" href="https://cs.vnvn.fun/sportovni-hry/cricket-hero">
+                            <div class="card__img-wrapper">
+                                <img class="card__img" alt="Cricket Hero" src="https://assets.vnvn.fun/images/57qf0wy01u2c77nnz3kdoou5p4i81fqg.webp">
+                            </div>
+                            <div class="card__title">Cricket Hero</div>
+                        </a>
+                    </article>
+                    <article>
+                        <a class="card" href="https://cs.vnvn.fun/sportovni-hry/football-heads">
+                            <div class="card__img-wrapper">
+                                <img class="card__img" alt="Football Heads" src="https://assets.vnvn.fun/images/swqrgrfbsxs8c7n9nrk7pxb2s5lpe9uo.webp">
+                            </div>
+                            <div class="card__title">Football Heads</div>
+                        </a>
+                    </article>
+                </div>
+            </section>
+            <section class="section">
+                <div class="section__title"><div class="section__emoji">🤹</div><h2>Dovednostní hry</h2></div>
+                <div class="section__body">
+                    <article>
+                        <a class="card" href="https://cs.vnvn.fun/dovednostni-hry/pool-mania">
+                            <div class="card__img-wrapper">
+                                <img class="card__img" alt="Pool Mania" src="https://assets.vnvn.fun/images/ycezoxbdjpxvtbgxqhhrmwn0m9owepne.webp">
+                            </div>
+                            <div class="card__title">Pool Mania</div>
+                        </a>
+                    </article>
+                    <article>
+                        <a class="card" href="https://cs.vnvn.fun/dovednostni-hry/emoji-game">
+                            <div class="card__img-wrapper">
+                                <img class="card__img" alt="Emoji Game" src="https://assets.vnvn.fun/images/2zvofd6p0e7xas9kwb2y71ovp41r1i0b.webp">
+                            </div>
+                            <div class="card__title">Emoji Game</div>
+                        </a>
+                    </article>
+                    <article>
+                        <a class="card" href="https://cs.vnvn.fun/dovednostni-hry/birds-vs-blocks">
+                            <div class="card__img-wrapper">
+                                <img class="card__img" alt="Birds VS Blocks" src="https://assets.vnvn.fun/images/mpccopijoz6unehmo27yvkuxhs35r7yj.webp">
+                            </div>
+                            <div class="card__title">Birds VS Blocks</div>
+                        </a>
+                    </article>
+                    <article>
+                        <a class="card" href="https://cs.vnvn.fun/dovednostni-hry/climb-hero">
+                            <div class="card__img-wrapper">
+                                <img class="card__img" alt="Climb Hero" src="https://assets.vnvn.fun/images/9ximab2a7g3zt0r81rq2ij0mewiqa1n2.webp">
+                            </div>
+                            <div class="card__title">Climb Hero</div>
+                        </a>
+                    </article>
+                    <article>
+                        <a class="card" href="https://cs.vnvn.fun/dovednostni-hry/puzzle-pieces">
+                            <div class="card__img-wrapper">
+                                <img class="card__img" alt="Puzzle Pieces" src="https://assets.vnvn.fun/images/4xzoooqwe796f8r6h0jerbo0wmedfh27.webp">
+                            </div>
+                            <div class="card__title">Puzzle Pieces</div>
+                        </a>
+                    </article>
+                    <article>
+                        <a class="card" href="https://cs.vnvn.fun/dovednostni-hry/dangerous-danny">
+                            <div class="card__img-wrapper">
+                                <img class="card__img" alt="Dangerous Danny" src="https://assets.vnvn.fun/images/vv8kelfed0msjydy94rfm4yvevfoqbcx.webp">
+                            </div>
+                            <div class="card__title">Dangerous Danny</div>
+                        </a>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </div>
+</div>
+
+    <footer class="footer">
+        <a href="mailto:martinskalak02@seznam.cz">Email Us</a>  
+    </footer>
 </body>
 </html>
